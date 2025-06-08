@@ -36,7 +36,7 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
-      - name: Output information
+      - name: Output info
         run: |        
           echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
           echo "MONGODB_NAME: $MONGODB_DB_NAME"
